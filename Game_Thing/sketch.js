@@ -216,9 +216,9 @@ function draw() {
     
       push();
       
-      translate(590, 225);
+      translate(width / 2.31525423729, height / 3.41333333333);
       imageMode(CENTER);
-      scale(3);
+      scale(width / 455.333333333);
       image(bloodIcon, 0, 0);
       
       pop();
@@ -303,7 +303,7 @@ function draw() {
     
       cursor();
     
-      scale(10);
+      scale(width/136.6);
       image(title, 0, 0);
     
       pop();

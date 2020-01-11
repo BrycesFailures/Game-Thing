@@ -147,7 +147,7 @@ function preload() {
 }
   
 function setup() {
-  createCanvas(1366, 768);
+  createCanvas(displayWidth, displayHeight);
   fullscreen(true);
   angleMode(DEGREES);
   rectMode(CENTER);

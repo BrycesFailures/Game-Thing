@@ -147,7 +147,7 @@ function preload() {
 }
   
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(1366, 768);
   fullscreen(true);
   angleMode(DEGREES);
   rectMode(CENTER);
@@ -216,9 +216,9 @@ function draw() {
     
       push();
       
-      translate(width / 2.31525423729, height / 3.41333333333);
+      translate(590, 225);
       imageMode(CENTER);
-      scale(width / 455.333333333);
+      scale(3);
       image(bloodIcon, 0, 0);
       
       pop();
@@ -303,7 +303,7 @@ function draw() {
     
       cursor();
     
-      scale(width/136.6);
+      scale(10);
       image(title, 0, 0);
     
       pop();

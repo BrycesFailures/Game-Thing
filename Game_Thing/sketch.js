@@ -50,6 +50,7 @@ let velociKitty;
 let vScythe;
 let alxatross;
 let tree;
+let llama;
 
 let water;
 let fire;
@@ -122,6 +123,7 @@ function preload() {
   vScythe = loadImage('Assets/VelociKitty Scythe.png');
   alxatross = loadImage('Assets/Alxatross.png');
   tree = loadImage('Assets/Tree.png');
+  llama = loadImage('Assets/Llama.png');
   
   title = loadImage('Assets/Game Thing Title.png');
   

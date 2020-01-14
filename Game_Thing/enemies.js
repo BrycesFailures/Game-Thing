@@ -205,6 +205,36 @@ function enemy() {
     pop();
       }
   
+  //Llama
+  if (enemies.id === 6) {
+    push();
+    
+    if (fireTicks > 0) {
+    
+    tint(255, 170, 87)
+    
+    }
+    
+    if (waterTicks > 0) {
+        
+        tint(77, 163, 255);
+        
+        }
+    
+    if (earthTicks > 0) {
+        
+        tint(122, 69, 0);
+        
+        }
+    
+    translate(enemies.eX, enemies.eY);
+    imageMode(CENTER);
+    scale(6);
+    rotate(enemies.eA);
+    image(llama, 0, 0);
+    pop();
+      }
+  
   
   
   

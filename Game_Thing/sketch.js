@@ -615,7 +615,7 @@ function enemyDeath() {
   enemies.wY = 0;
   enemies.wA = 0;
   
-  enemies.id = round(random(1, 5));
+  enemies.id = round(random(1, 6));
   
   selectN = 0;
   selectMode = 0;
